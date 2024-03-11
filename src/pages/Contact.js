@@ -1,8 +1,9 @@
 import React from 'react';
+import './Contact.css';
 
 function Contact() {
     return (
-        <div>
+        <div className='content'>
             <h2>Contact</h2>
             <p>We'd love to hear from you! Whether you have a question about our products, need assistance with a cheese selection, or want to book a cheese tasting session, our team is here to help.</p>
             <h3>Get in touch</h3>
