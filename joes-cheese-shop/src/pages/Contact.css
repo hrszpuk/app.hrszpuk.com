@@ -1,0 +1,23 @@
+
+.content {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .content {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .content {
+        width: 60%;
+    }
+}

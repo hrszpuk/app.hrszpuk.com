@@ -1,0 +1,28 @@
+.services-list {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 768px) {
+    .services-list {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .services-list {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .services-list {
+        width: 60%;
+    }
+}
