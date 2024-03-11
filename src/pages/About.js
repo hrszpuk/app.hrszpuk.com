@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css';
 
 function About() {
     return (
-        <div>
+        <div className='content'>
             <h2>About</h2>
             <p>Welcome to Joe's Cheese Shop, your go-to destination for all things cheese! Founded in 2021 by Joe, a passionate cheese enthusiast, our shop is dedicated to bringing you the finest selection of cheeses from around the globe.</p>
             <p>Joe's journey into the world of cheese began during his travels across Europe, where he discovered the rich and diverse flavors of artisanal cheeses. Inspired by the craftsmanship and tradition behind cheese-making, Joe decided to turn his passion into a profession.</p>
