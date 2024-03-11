@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    padding: 20px;
 }
 
 .product-item {
@@ -16,4 +17,14 @@
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .products-gallery {
+        padding: 10px;
+    }
+
+    .product-item {
+        width: 100%;
+    }
 }
