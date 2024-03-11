@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.header-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
